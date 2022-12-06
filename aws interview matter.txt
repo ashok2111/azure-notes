@@ -1,0 +1,6 @@
+cloud front - it have edge locations to control website,it is used for low letancy,its does't have server only by using edge location that web server required
+
+cloud formation- it is used as infra-stracture as a code like terraform
+
+aws code commit-it is used like git
+

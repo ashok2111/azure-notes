@@ -1,0 +1,64 @@
+git :git is the open-source and it is used to store raw code.
+
+
+Azure DevOps Server.
+Helix Core.
+AWS CodeCommit
+Subversion
+
+The difference between Git and SVN version control systems is that Git is a distributed version control system, whereas SVN is a centralized version control system. Git uses multiple repositories including a centralized repository and server, as well as some local repositories.
+
+git hub :GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests.
+
+GitLab
+Bitbucket
+Azure DevOps Server
+
+terraform :terraform is the infra starcture as a code
+
+Azure Management Tools.
+Morpheus.
+CloudHealth.
+Platform9 Managed Kubernetes.
+Terraform can be used in AWS with the help of access and secret keys.
+
+ansible:ansible is the  configuration management tool
+
+AWS CodePipeline
+Bamboo
+Hudson
+
+docker :Docker is a containerization platform that is free and open source. It allows developers to package programs into containers, which are standardized executable components that combine application source code with the OS libraries and dependencies needed to run that code in any environment.
+
+AWS Lambda.
+Jetty.
+Red Hat OpenShift.
+
+
+sonarqube :SonarQube an open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to: Detect Bugs. Code Smells. Security Vulnerabilities. Centralize Quality.
+
+ReSharper
+Checkmarx
+Codacy 
+FindBugs 
+Veracode
+
+port number:9000
+
+jfrog:JFrog Artifactory is a universal DevOps solution providing end-to-end automation and management of binaries and artifacts through the application delivery process that improves productivity across your development ecosystem.
+
+port number:8081
+
+jenkins:Jenkins is an open source continuous integration/continuous delivery and deployment (CI/CD) automation software DevOps tool written in the Java programming language. It is used to implement CI/CD workflows, called pipelines.
+
+bamboo
+handson
+AWS CodeCommit 
+AWS CodeDeploy 
+Amazon EC2 Spot 
+Amazon EC2 Fleet
+
+port number:8080
+
+
+
