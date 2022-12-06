@@ -1,0 +1,237 @@
+1. What is Git?
+   Git is free and open source software for distributed version control: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
+
+2. What do you understand by the term ‘Version Control System’?
+
+   Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter.
+
+3. What is GitHub?
+
+   GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+
+4. Mention some popular Git hosting services.
+   
+Bitbucket,GitLab,Perforce,Beanstalk,Amazon AWS CodeCommit,Codebase,Microsoft Azure DevOps,SourceForge.
+
+5. What benefits come with using GIT?
+
+   One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems, Git branches are cheap and easy to merge. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
+
+6. What’s the difference between Git and Github?
+
+   While Git is a tool that's used to manage multiple versions of source code edits that are then transferred to files in a Git repository, GitHub serves as a location for uploading copies of a Git repository. In a sense, then, there's no comparison when it comes to Git vs. GitHub as far as their function.
+
+7. What is a Git repository?
+
+   Repositories in GIT contain a collection of files of various different versions of a Project. These files are imported from the repository into the local server of the user for further updations and modifications in the content of the file. A VCS or the Version Control System is used to create these versions and store them in a specific place termed a repository.
+
+8. How can you initialise a repository in Git?
+
+   To create a new repo, you'll use the git init command. git init is a one-time command you use during the initial setup of a new repo. Executing this command will create a new . git subdirectory in your current working directory.
+
+9. How is Git different from Subversion (SVN)?
+
+   The biggest difference between Git vs Subversion (SVN) is that Git version control is distributed while SVN is centralized. There are also key differences in repositories, branching, and more. If you're considering switching from SVN to Git, you'll want to take these into account.
+
+10. Name a few Git commands with their function.
+
+        git add. Moves changes from the working directory to the staging area. ...
+	git branch. This command is your general-purpose branch administration tool. ...
+	git checkout. ...
+	git clean. ...
+	git clone. ...
+	git commit. ...
+	git commit --amend. ...
+	git config.
+
+11. What are the advantages of using Git?
+    
+    One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems, Git branches are cheap and easy to merge. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase
+
+12. What language is used in Git?
+    
+    git language
+
+13. What is the correct syntax to add a message to a commit?
+
+    To add a Git commit message to your commit, you will use the git commit command followed by the -m flag and then your message in quotes. Adding a Git commit message should look something like this: git commit -m “Add an anchor for the trial end sectionnn.”
+
+14. What does git pull origin master do?
+  
+     git pull origin master : it downloads new changes from the branch named master on the remote named origin and integrates them into your local HEAD branch.
+
+15.  What does the git push command do?
+
+     The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+
+16. Difference between git fetch and git pull.
+
+    Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull on the other hand brings the copy of the remote directory changes into the local repository.
+
+17. What do you understand about the Git merge conflict?
+
+    Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge. Git can often resolve differences between branches and merge them automatically.
+
+18. How do you resolve conflicts in Git?
+    
+    Under your repository name, click  Pull requests.
+
+Issues and pull requests tab selection
+
+In the "Pull Requests" list, click the pull request with a merge conflict that you'd like to resolve.
+
+Near the bottom of your pull request, click Resolve conflicts.
+Resolve merge conflicts button
+
+Tip: If the Resolve conflicts button is deactivated, your pull request's merge conflict is too complex to resolve on GitHub. You must resolve the merge conflict using an alternative Git client, or by using Git on the command line. For more information see "Resolving a merge conflict using the command line."
+
+Decide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change, which may incorporate changes from both branches. Delete the conflict markers <<<<<<<, =======, >>>>>>> and make the changes you want in the final merge.
+View merge conflict example with conflict markers
+
+If you have more than one merge conflict in your file, scroll down to the next set of conflict markers and repeat steps four and five to resolve your merge conflict.
+
+Once you've resolved all the conflicts in the file, click Mark as resolved.
+Click mark as resolved button
+
+If you have more than one file with a conflict, select the next file you want to edit on the left side of the page under "conflicting files" and repeat steps four through seven until you've resolved all of your pull request's merge conflicts.
+Select next conflicting file if applicable
+
+Once you've resolved all your merge conflicts, click Commit merge. This merges the entire base branch into your head branch.
+Resolve merge conflicts button
+
+If prompted, review the branch that you are committing to.
+
+If the head branch is the default branch of the repository, you can choose either to update this branch with the changes you made to resolve the conflict, or to create a new branch and use this as the head branch of the pull request.
+Prompt to review the branch that will be updated
+
+If you choose to create a new branch, enter a name for the branch.
+
+If the head branch of your pull request is protected you must create a new branch. You won't get the option to update the protected branch.
+
+Click Create branch and update my pull request or I understand, continue updating BRANCH. The button text corresponds to the action you are performing.
+
+To merge your pull request, click Merge pull request. For more information about other pull request merge options, see "Merging a pull request."
+
+19. What is the functionality of git ls-tree?
+
+    Lists the contents of a given tree object, like what "/bin/ls -a" does in the current working directory
+
+20. What is the process to revert a commit that has already been pushed andmade public?
+
+   Go to the Git history. Right click on the commit you want to revert. Select revert commit.
+
+21. What does git clone do?
+
+  git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository.
+
+22. What is Git stash?
+
+   The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy. For example: $ git status On branch main Changes to be committed: new file: style. css Changes not staged for commit: modified: index.
+
+23. What does the git reset --mixed and git merge --abort commands do?
+
+I'm looking to split a commit up and not sure which reset option to use.
+
+I was looking at the page In plain English, what does "git reset" do?, but I realized I don't really understand what the git index or staging area is and thus the explanations didn't help.
+
+Also, the use cases for --mixed and --soft look the same to me in that answer (when you want to fix and recommit). Can someone break it down even more? I realize --mixed is probably the option to go with, but I want to know why. Lastly, what about --hard?
+
+24. What do you understand about the Staging area in Git?
+
+   The staging area can be described as a preview of your next commit. When you create a git commit, Git takes changes that are in the staging area and make them as a new commit. You are allowed to add and remove changes from the staging area. The staging area can be considered as a real area where git stores the changes.
+
+25. What is the use of the git config command?
+
+    The git config command is a convenience function that is used to set Git configuration values on a global or local project level. These configuration levels correspond to . gitconfig text files. Executing git config will modify a configuration text file.
+   
+26. What is Git Bisect and how do you use it?
+
+    You use it by first telling it a "bad" commit that is known to contain the bug, and a "good" commit that is known to be before the bug was introduced. Then git bisect picks a commit between those two endpoints and asks you whether the selected commit is "good" or "bad".
+
+27. If you recover a deleted branch, what work is restored?
+
+    What work is restored when the deleted branch is recovered? The files which were stashed and saved in the stash index list will be recovered back. Any untracked files will be lost. Also, it is a good idea to always stage and commit your work or stash them.
+
+28. What is SubGit and why is it used?
+
+    SubGit: It is a software tool to migrate from SVN to Git. In order to migrate your repo from SVN to GIT SubGit must need to be installed first. It creates a bi-directional mirror that may be used for pushing to Git moreover as committing to Subversion.
+
+29. What exactly is tagging in Git?
+
+    Git supports two types of tags: lightweight and annotated. A lightweight tag is very much like a branch that doesn't change — it's just a pointer to a specific
+
+
+30. What exactly is forking in Git?
+
+    Forking is a git clone operation executed on a server copy of a projects repo. A Forking Workflow is often used in conjunction with a Git hosting service like Bitbucket. A high-level example of a Forking Workflow is: You want to contribute to an open source library hosted at bitbucket.org/userA/open-project
+
+31. How to change any older commit messages?
+
+    Use the git rebase -i HEAD~n command to display a list of the last n commits in your default text editor. Replace pick with reword before each commit message you want to change.
+
+32. How to handle huge binary files in Git?
+
+    Git LFS is a Git extension used to manage large files and binary files in a separate Git repository. Most projects today have both code and binary assets. And storing large binary files in Git repositories can be a bottleneck for Git users. That's why some Git users add Git Large File Storage (LFS).
+
+33. Name a few GIT tools.
+
+    1) git config. Before you can start using Git, you need to configure it. ...
+2) git init. ...
+3) git clone. ...
+4) git status. ...
+5) git add. ...
+6) git commit. ...
+7) git push. ...
+8) git branch.
+
+34. Will you make a new commit or amend an existing one?
+
+I have already pushed a commit on the remote branch and now I want to change its content, so I tried git amend.
+
+If do git status it says that the two branches have 1 and 1 different commits each, respectively.
+
+Now if I push the amended commit with the same commit message, will that add a new commit or it will change the last commit I have pushed
+
+35. What do you mean by branching strategy?
+
+    What is a branching strategy? Simply put, a branching strategy is something a software development team uses when interacting with a version control system for writing and managing code. As the name suggests, the branching strategy focuses on how branches are used in the development process.
+
+36. Difference between head, working tree, and index.
+
+    If the Working Tree is different from the index, then git status will show there are some changes not staged for commit. If the Working Tree is the same as index, but they are different from HEAD, then git status will show some files under changes to be committed section in its result
+
+37. What does the commit object contain?
+
+   The commit object contains the directory tree object hash, parent commit hash, author, committer, date and message
+
+38. What is the Gitflow workflow?
+
+   The Gitflow Workflow defines a strict branching model designed around the project release. This workflow doesn't add any new concepts or commands beyond what's required for the Feature Branch Workflow. Instead, it assigns very specific roles to different branches and defines how and when they should interact
+
+39. Mention benefits of forking workflow.
+
+    The main advantage of the Forking Workflow is that contributions can be integrated without the need for everybody to push to a single central repository. Developers push to their own server-side repositories, and only the project maintainer can push to the official repository.
+
+40. What do you mean by git instaweb?
+
+    Instaweb is a script used to set up a temporary instance of GitWeb on a web server for browsing local repositories. Instaweb requires, at a minimum, a light-weight server such as lighttpd or webrick.
+
+41. Is there a git GUI client available for Linux?
+
+    Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), but there are several third-party tools for users looking for platform-specific experience. If you want to add another GUI tool to this list, just follow the instructions.
+
+42. How is a bare repository different from the standard way of initialising aGit repository?
+
+    A bare repository is the same as default, but no commits can be made in a bare repository. The changes made in projects cannot be tracked by a bare repository as it doesn't have a working tree. A working tree is a directory in which all the project files/sub-directories reside
+
+43. What is the functionality of git clean command?
+
+    Summary. To recap, git clean is a convenience method for deleting untracked files in a repo's working directory. Untracked files are those that are in the repo's directory but have not yet been added to the repo's index with git add .
+
+44. How do you find a list of files that have been changed in a particularcommit?
+
+To find out which files changed in a given commit, use the git log --raw command. It's the fastest and simplest way to get insight into which files a commit affects.
+
+45. Which command is used to create an empty Git repository?
+
+The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository

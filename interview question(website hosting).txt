@@ -1,0 +1,75 @@
+1. What do you mean by Apache Web Server?
+
+Apache HTTP Server is a free and open-source web server that delivers web content through the internet. It is commonly referred to as Apache and after development, it quickly became the most popular HTTP client on the web
+
+2. How will you install the Apache server on Linux Machine?
+
+Installing Apache. To install Apache, install the latest meta-package apache2 by running: sudo apt update sudo apt install apache2. ...
+Creating Your Own Website. By default, Apache comes with a basic site (the one that we saw in the previous step) enabled. ...
+Setting up the VirtualHost Configuration File.
+
+3. What do you mean by the Alias Directive?
+
+The Alias directive allows documents to be stored in the local filesystem other than under the DocumentRoot . URLs with a (%-decoded) path beginning with URL-path will be mapped to local files beginning with directory-path . The URL-path is case-sensitive, even on case-insensitive file systems.
+
+4. What do you mean by the log files of the Apache web server?
+
+The server error log, whose name and location is set by the ErrorLog directive, is the most important log file. This is the place where Apache httpd will send diagnostic information and record any errors that it encounters in processing requests.
+
+5. Explain the difference between location and Directory.
+
+When using <Location>, I am able to redirect users to a sign-on page, forcing them to authenticate and have proper privileges before accessing the URL.
+When using <Directory>, it is supposed to allow me to control access to specified folders and directories, right?
+
+6. How to start and stop the Apache Web server?
+
+Restart Apache 2 web server, enter: # /etc/init.d/apache2 restart. $ sudo /etc/init.d/apache2 restart. ...
+To stop Apache 2 web server, enter: # /etc/init.d/apache2 stop. ...
+To start Apache 2 web server, enter: # /etc/init.d/apache2 start.
+
+7. What is the command to change the default Listen port?
+
+In Debian/Ubuntu based system, the configuration file that needs modified is /etc/apache2/ports.conf file and on RHEL/CentOS based distributions edit /etc/httpd/conf/httpd.conf file.
+
+8. How to secure a Website hosted on Apache Web Server?
+
+   Disable the server-info Directive. ...
+Disable the server-status Directive. ...
+Disable the ServerSignature Directive. ...
+Set the ServerTokens Directive to Prod. ...
+Disable Directory Listing. ...
+Enable Only the Required Modules. ...
+Use An Appropriate User and Group. ...
+Restrict Unwanted Services.
+
+9. What is DocumentRoot?
+
+The folder/directory on a Web server that contains the Web pages visible to the public. Also called the "docroot," the folder names are often /www/public or /public_htm
+
+10. What’s the difference between Apache Web Server and Apache Tomcat?
+
+the Apache HTTP Server, but the fundamental difference is that Tomcat provides dynamic content by employing Java-based logic, while the Apache web server's primary purpose is to simply serve up static content such as HTML, images, audio and text
+
+11. How to deploy war or JAVA applications in Apache?
+
+You'll need to develop a basic web site first by creating a directory and a simple JSP (Java Server Page). ...
+Open a command prompt and navigate to c:/DemoWebsite . ...
+Copy the WAR file you have just created to CATALINA_HOME/webapps , e.g., c:/Tomcat8/webapps 
+
+12. Can Apache be secured with TCP wrappers?
+
+As we explained, TCP wrappers is a good choice for a single-homed/stand-alone server on a secure network where you want to limit host/network access to just a couple of services. Many application server administrators use the TCP wrappers /etc/hosts.allow and /etc/hosts.deny files to control daemon access from one easy-to-view area, then use iptables for more advanced state-based, filter, and packet-level service control (of course, you can use iptables for all of this if you prefer.)
+
+13. Can we have two Apache Web servers on a single machine?
+
+Because apache allows you to load modules dynamically, most of the time, a single installation of apache can serve the needs of multiple instances, and every instance may be configured to run different sets of modules.
+
+14. What are utility commands?
+
+The utility commands are divided into three groups, those you can run on both UNIX and Windows operating systems, those you can run only on UNIX, and those you can run only on Windows. Utility commands available for both UNIX and Windows operating systems. Table 1. Utility commands available for both UNIX and Windows
+
+15. How will you check whether the Apache server is running or not?
+
+In most cases, when you type http://server-ip:80 on any of the browsers you use, it would show whether Apache is running. However, you can search further by putting the command of “service apache2 status” to be sure. If you are using Ubuntu, you can also add the command of a restart to let Apache function again
+
+

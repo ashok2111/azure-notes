@@ -1,0 +1,190 @@
+1. What is Linux?
+
+Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
+
+2. What is the difference between UNIX and LINUX?
+
+Linux is an open-source operating system. This OS is supported on several computer platforms and includes multiple software features that handle computer resources, and allow you to do tasks. Unix is a powerful and multitasking operating system that behaves like a bridge between the user and the computer.
+
+3. What is BASH?
+
+Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been used as the default login shell for most Linux distributions. Bash was one of the first programs Linus Torvalds ported to Linux, alongside GCC.
+
+4.  What is Linux Kernel?
+
+The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel. It was originally authored in 1991 by Linus Torvalds for his i386-based PC, and it was soon adopted as the kernel for the GNU operating system, which was written to be a free replacement for Unix.
+
+5. What is LILO?
+
+LILO is a boot loader for Linux and was the default boot loader for most Linux distributions in the years after the popularity of loadlin. Today, many distributions use GRUB as the default boot loader, but LILO and its variant ELILO are still in wide use.
+
+6.What is the advantage of open source?
+
+Open source enables technology agility, typically offering multiple ways to solve problems. Open source helps keep your IT organization from getting blocked because a particular capability isn't available from a vendor. Instead of waiting for the vendor to deliver that capability, you can create it yourself
+
+7. What is the importance of the GNU project?
+
+Its goal is to give computer users freedom and control in their use of their computers and computing devices by collaboratively developing and publishing software that gives everyone the rights to freely run the software, copy and distribute it, study it, and modify it. GNU software grants these rights in its license.
+
+8.  What is CLI?
+
+CLI is a command line program that accepts text input to execute operating system functions
+
+9.  What is GUI?
+
+The GUI, graphical user interface, is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based UIs, typed command labels or text navigation. 
+
+10. What are filenames that are preceded by a dot?
+
+In Unix-like operating systems, any file or folder that starts with a dot character (for example, /home/user/. config), commonly called a dot file or dotfile, is to be treated as hidden – that is, the ls command does not display them unless the -a or -A flags ( ls -a or ls -A ) are used.
+
+11.  What are daemons?
+
+In multitasking computer operating systems, a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user.
+
+12. What are the kinds of permissions under Linux?
+
+Read (r) : The read permission allows you to open and read the content of a file. ...
+Write (w) : The write permission allows you to edit, remove or rename a file. ...
+Execute (x): In Unix type system, you can't run or execute a program unless execute permission is set
+
+13.  What are environmental variables?
+
+An environment variable is a dynamic-named value that can affect the way running processes will behave on a computer. They are part of the environment in which a process runs
+
+14. What are the different modes when using a vi editor?
+
+The Vi editor has two modes: Command and Insert. When you first open a file with Vi, you are in Command mode. Command mode means you can use keyboard keys to navigate, delete, copy, paste, and do a number of other tasks—except entering text. To enter Insert mode, press i .
+
+15.  What is grep command?
+
+grep is a command-line utility for searching plain-text data sets for lines that match a regular expression. Its name comes from the ed command g/re/p, which has the same effect. grep was originally developed for the Unix operating system, but later available for all Unix-like systems and some others such as OS-9
+
+16. What are the contents of /usr/local
+
+The /usr/local directory is a special version of /usr that has its own internal structure of bin, lib and sbin directories, but /usr/local is designed to be a place where users can install their own software outside the distribution's provided software without worrying about overwriting any distribution files.
+
+17. How do you terminate an ongoing process?
+
+There are two commands used to kill a process: kill – Kill a process by ID. killall – Kill a process by name
+
+18. How can you find the status of a process?
+
+You can list running processes using the ps command (ps means process status). The ps command displays your currently running processes in real-time. This will display the process for the current shell with four columns: PID returns the unique process ID.
+
+19. How can you check the memory status?
+
+cat Command to Show Linux Memory Information.
+free Command to Display the Amount of Physical and Swap Memory.
+vmstat Command to Report Virtual Memory Statistics.
+top Command to Check Memory Use.
+htop Command to Find Memory Load of Each Process
+
+20. Explain how you can create a folder using Terminal
+
+The first step in creating a new directory is to navigate to the directory that you would like to be the parent directory to this new directory using cd . Then, use the command mkdir followed by the name you would like to give the new directory (e.g. mkdir directory-name )
+
+21. What are the different types of linux distriutions?
+
+1) Ubuntu
+2) Linux Mint
+3) Debian
+4) Red Hat Enterprise / CentOS
+5) Fedora
+
+22. What is the latest version of Ubuntu distribution?
+
+Ubuntu is released every six months, with long-term support (LTS) releases every two years. As of October 2022, the most-recent release is 22.10 ("Kinetic Kudu"), and the current long-term support release is 22.04 ("Jammy Jellyfish").
+
+23. What is the boot process?Explain.
+
+In computing, booting is the process of starting a computer as initiated via hardware such as a button or by a software command. After it is switched on, a computer's central processing unit (CPU) has no software in its main memory, so some process must load software into memory before it can be executed.
+
+24. What are the 7 run levels available in the linux operating system?
+
+
+
+
+
+
+
+
+
+
+25. LTS stands for ?
+
+Long-term support (LTS) is a product lifecycle management policy in which a stable release of computer software is maintained for a longer period of time than the standard edition.
+
+26. When Systemd as default service manager using command ,How can you findthe current target?
+
+
+
+
+
+27. What is the command to view all currently loaded targets?
+
+To see the current target, use the command systemctl get-default . The runlevels in a System V init system are configured in /etc/inittab
+
+
+28. What is the sudo command?
+
+The sudo command allows you to run programs with the security privileges of another user (by default, as the superuser). It prompts you for your personal password and confirms your request to execute a command by checking a file, called sudoers , which the system administrator configures
+
+29. What is the echo command?
+
+In computing, echo is a command that outputs the strings that are passed to it as arguments. It is a command available in various operating system shells and typically used in shell scripts and batch files to output status text to the screen or a computer file, or as a source part of a pipeline
+
+30. apt stands for what command?
+
+APT stands for Advanced Package Tool. It is a set of core tools inside Debian and Ubuntu Linux system. You can use the apt command to install, delete or remove apps, keep Ubuntu/Debian server up to date with security patches and more. Apt work with dpkg command to install and update the system. I strongly suggest that you use the apt command to save typing at the command line. This page provides apt command examples for new Linux users for the package management purposes.
+
+31. What command is used to extract and compress files in linux?
+
+tar -czvf logs_archive.tar.gz *
+
+32.  What Command is used to unzip files?
+
+unzip file.zip
+
+33. What is the use of wget command ?
+
+Wget is a networking command-line tool that lets you download files and interact with REST APIs. It supports the HTTP , HTTPS , FTP , and FTPS internet protocols. Wget can deal with unstable and slow network connections. In the event of a download failure, Wget keeps trying until the entire file has been retrieved.
+
+34.  In which year vi editor was developed?
+
+1976
+
+35. Who developed the vi editor?
+
+Bill Joy
+
+
+36. Which command is used to "save and quit" from the vi editor?
+
+:wq
+
+37. Dd command belongs to which mode ?
+
+dd is a command-line utility for Unix and Unix-like operating systems whose primary purpose is to convert and copy files.
+
+On Unix, device drivers for hardware (such as hard disk drives) and special device files (such as /dev/zero and /dev/random) appear in the file system just like normal files.
+dd can also read and/or write from/to these files, provided that function is implemented in their respective drivers
+As a result, dd can be used for tasks such as backing up the boot sector of a hard drive, and obtaining a fixed amount of random data.
+The dd program can also perform conversions on the data as it is copied, including byte order swapping and conversion to and from the ASCII and EBCDIC text encodings.
+
+38. Which command is used to remove the line numbers?
+
+You use the unnumber command to remove the COBOL line numbers from source code: Open a source file in the editor.
+
+39. How to copy a line in command mode?
+
+ Press the ESC key to be sure you are in vi Command mode. Place the cursor on the line you wish to copy. Type yy to copy the line. Move the cursor to the place you wish to insert the copied line.06-Sept-2019
+"ayy: Copy the current line into a buffer named a
+"bP: Put the information in the buffer named b ...
+
+40. By which command can you change permissions in linux?
+
+chmod +rwx filename to add permissions.
+chmod -rwx directoryname to remove permissions.
+chmod +x filename to allow executable permissions.
+chmod -wx filename to take out write and executable permissions
